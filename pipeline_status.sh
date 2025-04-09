@@ -11,7 +11,7 @@ while IFS='|' read -r line; do
   REPO=${arrIN[1]}
   ALUMNO=${arrIN[2]}
 
-  BADGE="[![Compilacion](https://github.com/${REPO}/dsy1103-usuario/actions/workflows/compilacion.yml/badge.svg)](https://github.com/${REPO}/dsy1103-usuario/actions/workflows/compilacion.yml)"
+  BADGE="[![Build](https://github.com/${REPO}/dsy1103-usuario/actions/workflows/compilacion.yml/badge.svg)](https://github.com/${REPO}/dsy1103-usuario/actions/workflows/compilacion.yml)"
 
   echo "${ALUMNO}|${BADGE}|[${REPO}](https://github.com/${REPO}/dsy1103-usuario)" >> $FILE
 
