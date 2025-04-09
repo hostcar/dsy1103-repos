@@ -13,7 +13,7 @@ while IFS='|' read -r line; do
 
   BADGE="[![Build](https://github.com/${REPO}/dsy1103-usuario/actions/workflows/compilacion.yml/badge.svg)](https://github.com/${REPO}/dsy1103-usuario/actions/workflows/compilacion.yml)"
 
-  echo "${ALUMNO}|${BADGE}|[${REPO}](https://github.com/${REPO}/dsy1103-usuario)" >> $FILE
+  echo "|${ALUMNO}|${BADGE}|[${REPO}](https://github.com/${REPO}/dsy1103-usuario)" >> $FILE
 
 done < repos.txt
 
