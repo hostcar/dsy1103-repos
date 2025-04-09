@@ -3,7 +3,7 @@
 FILE=README.md
 
 echo "# Pipeline status" > $FILE
-echo "Alumno | Status | Repo " >> $FILE
+echo "Alumno | Build | Repo " >> $FILE
 echo "|:-----|:-------|:-----" >> $FILE
 
 while IFS='|' read -r line; do
