@@ -7,6 +7,7 @@ dosoArtemis;7. Benjamin Donoso
 JFFica;8. Jorge Fuentes
 FranciscoP18;9. Francisco Gaete
 KarcatBit;10. Karol Giraldo
+hgromsch;Heinrich Gromsch
 scar-guerra;12. Scarlet Guerra
 sebastianLagos16;14. Sebastian Lagos
 WilliamsOli;18. Williams Olivares
