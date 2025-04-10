@@ -8,11 +8,12 @@ dosoArtemis;7. Benjamin Donoso
 JFFica;8. Jorge Fuentes
 FranciscoP18;9. Francisco Gaete
 KarcatBit;10. Karol Giraldo
-hgromsch;Heinrich Gromsch
+hgromsch;11. Heinrich Gromsch
 scar-guerra;12. Scarlet Guerra
 DanielMelej;14. Daniel Melej
 Fer-miranda;15. Fernanda Miranda
-sebastianLagos16;14. Sebastian Lagos
+franciscomonsalve;16. Francisco Monsalve
+sebastianLagos16;17. Sebastian Lagos
 WilliamsOli;18. Williams Olivares
 JeremyParada;19. Jeremy Parada
 LeoDuocUC;Leopoldo Payacan
