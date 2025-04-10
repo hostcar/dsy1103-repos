@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: usuario
+  datasource:
+    hikari:
+      connectionTimeout: 5000
+      maximumPoolSize: 2
+    username: osca.riverap
+    password: 8}-g3S}_%Ya@4M;v
+    url: jdbc:postgresql://35.223.30.52:5432/sandbox-clase
+
+server:
+  port: 8081
+
+logging:
+  level:
+    root: warn
+    cl:
+      duoc: debug
