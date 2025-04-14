@@ -3,8 +3,8 @@
 FILE=README.md
 
 echo "# Pipeline status" > $FILE
-echo "Alumno | Build | Repo " >> $FILE
-echo "|:-----|:-------|:-----" >> $FILE
+echo "Alumno | Build | Test | Repo " >> $FILE
+echo "|:-----|:-------|:-----|:-----" >> $FILE
 
 while IFS='|' read -r line; do
   arrIN=(${(s[;])line})

@@ -1,6 +1,7 @@
 # Pipeline status
-Alumno | Build | Repo 
-|:-----|:-------|:-----
+Alumno | Build | Test | Repo 
+|:-----|:-------|:-----|:-----
+|repo|[![Build](https://github.com/Kyunokitsune/dsy1103-usuario/actions/workflows/compilacion.yml/badge.svg)](https://github.com/Kyunokitsune/dsy1103-usuario/actions/workflows/compilacion.yml)|[![Build](https://github.com/Kyunokitsune/dsy1103-usuario/actions/workflows/tests.yml/badge.svg)](https://github.com/Kyunokitsune/dsy1103-usuario/actions/workflows/tests.yml)|[Kyunokitsune](https://github.com/Kyunokitsune/dsy1103-usuario)
 |1. Juan Pablo Arevalo|[![Build](https://github.com/jparevalozuaza/dsy1103-usuario/actions/workflows/compilacion.yml/badge.svg)](https://github.com/jparevalozuaza/dsy1103-usuario/actions/workflows/compilacion.yml)|[![Build](https://github.com/jparevalozuaza/dsy1103-usuario/actions/workflows/tests.yml/badge.svg)](https://github.com/jparevalozuaza/dsy1103-usuario/actions/workflows/tests.yml)|[jparevalozuaza](https://github.com/jparevalozuaza/dsy1103-usuario)
 |2. Mathias Argomedo|[![Build](https://github.com/BIGSm0ke/dsy1103-usuario/actions/workflows/compilacion.yml/badge.svg)](https://github.com/BIGSm0ke/dsy1103-usuario/actions/workflows/compilacion.yml)|[![Build](https://github.com/BIGSm0ke/dsy1103-usuario/actions/workflows/tests.yml/badge.svg)](https://github.com/BIGSm0ke/dsy1103-usuario/actions/workflows/tests.yml)|[BIGSm0ke](https://github.com/BIGSm0ke/dsy1103-usuario)
 |3. Victor Bello|[![Build](https://github.com/stywan/dsy1103-usuario/actions/workflows/compilacion.yml/badge.svg)](https://github.com/stywan/dsy1103-usuario/actions/workflows/compilacion.yml)|[![Build](https://github.com/stywan/dsy1103-usuario/actions/workflows/tests.yml/badge.svg)](https://github.com/stywan/dsy1103-usuario/actions/workflows/tests.yml)|[stywan](https://github.com/stywan/dsy1103-usuario)
