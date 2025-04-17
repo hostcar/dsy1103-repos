@@ -6,7 +6,7 @@ spring:
       connectionTimeout: 5000
       maximumPoolSize: 2
     username: osca.riverap
-    password: 8}-g3S}_%Ya@4M;v
+    password: <modificar>
     url: jdbc:postgresql://35.223.30.52:5432/sandbox-clase
 
 server:
