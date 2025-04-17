@@ -36,4 +36,3 @@ while IFS='|' read -r line; do
   git push origin main
 
 done < repos.txt
-
