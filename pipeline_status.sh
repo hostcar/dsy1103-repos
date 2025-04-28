@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-FILE=biblioteca.md
+FILE=README.md
 
 echo "# Pipeline status" > $FILE
 echo "Biblioteca | Build | Test | Repo " >> $FILE
