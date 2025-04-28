@@ -1,6 +1,6 @@
-package com.ejemplo.bibliotecaduoc.controller;
+package com.example.bibliotecaduoc.controller;
 
-import com.ejemplo.bibliotecaduoc.model.Libro;
+import com.example.bibliotecaduoc.model.Libro;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
