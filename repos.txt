@@ -1,4 +1,3 @@
-Kyunokitsune;repo
 jparevalozuaza;1. Juan Pablo Arevalo
 BIGSm0ke;2. Mathias Argomedo
 stywan;3. Victor Bello
@@ -24,4 +23,5 @@ GenesisEroj;23. Genesis Rojas
 nicolasrr2;24. Nicolas Romo
 JOOORMUNDGANDER;25. Marcelo Sade
 Nicolas-Salas;26. Nicolas Salas
+Kyunokitsune;27. Matias Valdes
 nanesher;28. Hernan Vera
