@@ -31,7 +31,6 @@ while IFS='|' read -r line; do
   pwd
   ls -l
 
-  rm .github/workflows/tests.yml
   rm src/test/java/com/example/bibliotecaduoc/LibroControllerTests.java
   git add -A
   git commit -m "pipeline"
