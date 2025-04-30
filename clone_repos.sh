@@ -22,7 +22,7 @@ while IFS='|' read -r line; do
 
   mkdir $DIRECTORY
 
-  git clone git@github.com:${REPO}/dsy1103-biblioteca.git $DIRECTORY
+  git clone --branch main git@github.com:${REPO}/dsy1103-biblioteca.git $DIRECTORY
 
   cp -R $PIPELINE_DIR $DIRECTORY
 
