@@ -2,7 +2,7 @@
 
 FILE=../../HOSPITAL.md
 
-echo "# Hospital status" > $FILE
+echo "# Hospital Status" > $FILE
 echo "Hospital | Build | Test | Repo " >> $FILE
 echo "|:-----|:-------|:-----|:-----" >> $FILE
 
