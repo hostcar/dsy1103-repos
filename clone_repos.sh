@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-PIPELINE_DIR=pipeline/salas-biblioteca/
+PIPELINE_DIR=pipeline/salas-bibliotecas/
 
 if [ ! -d "alumnos" ]; then
     echo "alumnos does not exist."
