@@ -34,6 +34,6 @@ while IFS='|' read -r line; do
 
   git add -A
   git commit -m "pipeline"
-  #git push origin main
+  git push origin main
 
 done < repos.txt
