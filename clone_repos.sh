@@ -24,6 +24,9 @@ while IFS='|' read -r line; do
 
   git clone --branch main git@github.com:${REPO}/dsy1103-salas-bibliotecas.git $DIRECTORY
 
+  pwd
+  ls -l pipeline
+
   cp -R $PIPELINE_DIR $DIRECTORY
 
   cd $DIRECTORY
