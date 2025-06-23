@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-PIPELINE_DIR=pipeline/dsy1103-for-users/
+PIPELINE_DIR=pipeline/dsy1103-for-loans/
 
 if [ ! -d "alumnos" ]; then
     echo "alumnos does not exist."
@@ -12,7 +12,7 @@ while IFS='|' read -r line; do
 
   arrIN=(${(s[;])line})
   REPO=${arrIN[1]}
-  echo "https://github.com/${REPO}/dsy1103-for-users"
+  echo "https://github.com/${REPO}/dsy1103-for-loans"
 
   DIRECTORY=alumnos/$REPO
   if [ -d "$DIRECTORY" ]; then
@@ -22,7 +22,7 @@ while IFS='|' read -r line; do
 
   mkdir $DIRECTORY
 
-  git clone --branch main git@github.com:${REPO}/dsy1103-for-users.git $DIRECTORY
+  git clone --branch main git@github.com:${REPO}/dsy1103-for-loans.git $DIRECTORY
 
   pwd
   # ls -l pipeline
