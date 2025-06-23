@@ -25,7 +25,7 @@ while IFS='|' read -r line; do
   git clone --branch main git@github.com:${REPO}/dsy1103-for-users.git $DIRECTORY
 
   pwd
-  ls -l pipeline
+  # ls -l pipeline
 
   cp -R $PIPELINE_DIR $DIRECTORY
 
