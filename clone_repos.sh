@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-PIPELINE_DIR=pipeline/salas-bibliotecas/
+PIPELINE_DIR=pipeline/dsy1103-for-books/
 
 if [ ! -d "alumnos" ]; then
     echo "alumnos does not exist."
@@ -12,7 +12,7 @@ while IFS='|' read -r line; do
 
   arrIN=(${(s[;])line})
   REPO=${arrIN[1]}
-  echo "https://github.com/${REPO}/dsy1103-salas-bibliotecas"
+  echo "https://github.com/${REPO}/dsy1103-for-books"
 
   DIRECTORY=alumnos/$REPO
   if [ -d "$DIRECTORY" ]; then
@@ -22,7 +22,7 @@ while IFS='|' read -r line; do
 
   mkdir $DIRECTORY
 
-  git clone --branch main git@github.com:${REPO}/dsy1103-salas-bibliotecas.git $DIRECTORY
+  git clone --branch main git@github.com:${REPO}/dsy1103-for-books.git $DIRECTORY
 
   pwd
   ls -l pipeline
@@ -39,4 +39,4 @@ while IFS='|' read -r line; do
   git commit -m "pipeline"
   git push origin main
 
-done < repos.txt
+done < grupos.txt

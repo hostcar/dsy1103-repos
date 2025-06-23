@@ -3,7 +3,7 @@
 FILE=README.md
 
 echo "# Pipeline status" > $FILE
-echo "Biblioteca | Build | Test | Repo " >> $FILE
+echo "Component | Build | Test | Repo " >> $FILE
 echo "|:-----|:-------|:-----|:-----" >> $FILE
 
 while IFS='|' read -r line; do
@@ -11,10 +11,17 @@ while IFS='|' read -r line; do
   REPO=${arrIN[1]}
   ALUMNO=${arrIN[2]}
 
-  BADGE="[![Build](https://github.com/${REPO}/dsy1103-salas-bibliotecas/actions/workflows/build.yml/badge.svg)](https://github.com/${REPO}/dsy1103-salas-bibliotecas/actions/workflows/build.yml)"
-  BADGE_PRUEBAS="[![Build](https://github.com/${REPO}/dsy1103-salas-bibliotecas/actions/workflows/tests.yml/badge.svg)](https://github.com/${REPO}/dsy1103-salas-bibliotecas/actions/workflows/tests.yml)"
+  BADGE="[![Build](https://github.com/${REPO}/dsy1103-for-books/actions/workflows/build.yml/badge.svg)](https://github.com/${REPO}/dsy1103-for-books/actions/workflows/build.yml)"
+  BADGE_PRUEBAS="[![Build](https://github.com/${REPO}/dsy1103-for-books/actions/workflows/tests.yml/badge.svg)](https://github.com/${REPO}/dsy1103-for-books/actions/workflows/tests.yml)"
+  echo "|${ALUMNO}|${BADGE}|${BADGE_PRUEBAS}|[${REPO}](https://github.com/${REPO}/dsy1103-for-books)" >> $FILE
 
-  echo "|${ALUMNO}|${BADGE}|${BADGE_PRUEBAS}|[${REPO}](https://github.com/${REPO}/dsy1103-salas-bibliotecas)" >> $FILE
+  BADGE="[![Build](https://github.com/${REPO}/dsy1103-for-loans/actions/workflows/build.yml/badge.svg)](https://github.com/${REPO}/dsy1103-for-loans/actions/workflows/build.yml)"
+  BADGE_PRUEBAS="[![Build](https://github.com/${REPO}/dsy1103-for-loans/actions/workflows/tests.yml/badge.svg)](https://github.com/${REPO}/dsy1103-for-loans/actions/workflows/tests.yml)"
+  echo "|${ALUMNO}|${BADGE}|${BADGE_PRUEBAS}|[${REPO}](https://github.com/${REPO}/dsy1103-for-loans)" >> $FILE
 
-done < repos.txt
+  BADGE="[![Build](https://github.com/${REPO}/dsy1103-for-users/actions/workflows/build.yml/badge.svg)](https://github.com/${REPO}/dsy1103-for-users/actions/workflows/build.yml)"
+  BADGE_PRUEBAS="[![Build](https://github.com/${REPO}/dsy1103-for-users/actions/workflows/tests.yml/badge.svg)](https://github.com/${REPO}/dsy1103-for-users/actions/workflows/tests.yml)"
+  echo "|${ALUMNO}|${BADGE}|${BADGE_PRUEBAS}|[${REPO}](https://github.com/${REPO}/dsy1103-for-users)" >> $FILE
+
+done < grupos.txt
 
